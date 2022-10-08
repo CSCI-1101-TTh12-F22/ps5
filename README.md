@@ -4,10 +4,14 @@
 
 For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
 
-**Note: Your programs should all have the following format: import statements (if necessary); then function definitions (if there are any); then a `main()` function that gets the ball rolling and calls the functions you defined (if any); and finally outide all other functions, the call to `main()`.**
+**Note: Your programs should all have the following format:** 
+* First, `import` statements (if necessary).
+* Then, function definitions. I will tell you what functions to define for each program.
+* Then, a `main()` function that gets the ball rolling and calls the functions you defined. I will tell you what needs to be in `main()`.
+* Finally, outide all other functions, the call to `main()`.
 
 ### Comments
-I now expect you to write well-formatted and helpful comments in your code! Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to these requirements:
+I now expect you to write *well-formatted and helpful* comments in your code! Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to these requirements:
 
 * Before every function, describe what it does and what its arguments are (if any).
 * Before every variable, explain what value it is holding or what purpose it serves. (Exception: the variable that helps you go through a `for` loop does not need to be explained, of course!)
