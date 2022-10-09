@@ -11,7 +11,7 @@ For this problem set, you will submit to Canvas **a single .zip file**. Detailed
 * Finally, outide all other functions, the call to `main()`.
 
 ### Valid code
-I now expect you to submit t only code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should post your problem on Slack (the exact error and a screenshot of snippet of code causing the error) or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
+I now expect you to submit code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should either post to Slack the exact error and a screenshot of the snippet of code causing the error, or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
 
 ### Comments
 I now expect you to write *well-formatted and helpful* comments in your code! **Two points will be deducted** if you provide no or minimal comments, and **1 point will be deducted** if you have sufficient comments but they do not conform to these requirements:
@@ -99,7 +99,7 @@ And here's an example where the user cheats. I've left out a bunch of guesses in
 
 In Part 3, you will write another version of the program in Part 2, but this time, the computer will guess a random integer between 1 and 100 rather than starting at 1 and going up one-by-one. You can [look here](https://www.w3schools.com/python/ref_random_randint.asp) to learn about how to choose a random integer using the `randint()` function of the `random` module
 
-To guarantee that the computer will eventually guess the number, you will keep track of what it guesses with a list, and use that list to prevent the computer from guessing the same number twice. 
+To guarantee that the computer will eventually guess the number, you will keep track of what it guesses with a list, and check any new guesses against that list to prevent the computer from guessing the same number twice. 
 
 Other than how the computer guesses the number, the behavior should be the same as Part 2 (e.g., asking for `y` and `n`, reporting back the number of guesses or whether the person cheated). Again, you can structure this however you like, as long as it runs as intended, produces the correct output, is commented, and doesn't have a lot of unnecessary code.
 
@@ -120,31 +120,32 @@ This program, `part4.py` will give you practice working with list comprehensions
 
 2. Write a function called `compLists(n)` that takes an integer argument `n` and does the following: 
 
- * Using a **list comprehension**, create a list, `randlist`, of `n` random integers between 1 and 100, inclusive. This means you create the list in a single line of code. For a review of list comprehensions, [see here](https://realpython.com/list-comprehension-python/#using-list-comprehensions).
+ * Using a **list comprehension**, create a list, `randlist`, of `n` random integers between 1 and 100, inclusive. This means you **create the list in a single line of code**. For a review of list comprehensions, [see here](https://realpython.com/list-comprehension-python/#using-list-comprehensions). (Again, duplicates are okay.)
  * Using a **list comprehension**, create a list, `evenlist`, that contains only the even numbers from the list you created above. Again, you must create the list in a single line of code!
  * Return `randlist` and `evenlist`
 
 3. Write a function called  `loopaverage(mylist)` that **uses a loop** to calculate and return the average of all the numbers in a list.
 
-4. Write a function called  `fastaverage(mylist)` that calculates and return the average of all the numbers in a list **in a single line without importing any additional libraries**. Have a look at [these useful built-in Python functions](https://docs.python.org/3/library/functions.html) if you need some ideas.
+4. Write a function called  `fastaverage(mylist)` that calculates and returns the average of all the numbers in a list **in a single line without importing any additional libraries**. Have a look at [these useful built-in Python functions](https://docs.python.org/3/library/functions.html) if you need some ideas.
 
 5. Write a `main()` method that:
 
-* Call `loopLists(10000)`. Calculate and print out the average of the two returned lists using `loopaverage()`.
-* Call `compLists(10000)`. Calculate and print out the average of the two returned lists using `fastaverage()`.
+* Call `loopLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out the average of the two returned lists using `loopaverage()`.
+* Call `compLists(10000)`. ecall that this function returns a list of integers, and a list of even integers. Calculate and print out the average of the two returned lists using `fastaverage()`.
 * Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. 
 
-
-You will print out a total of 12 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
+You will print out a total of 6 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 
 ---
 
 ## What to turn in
-If you haven't already, create a `ps5` folder. In your `p5` folder you should have three python scripts: `part1.py`, `part2.py`,  `part3.py`, and `part4.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`). Do not zip up each python file individually. You should create a single zipped file, inside of which the four unzipped python files reside.
+If you haven't already, create a `ps5` folder. In your `p5` folder you should have four python scripts: `part1.py`, `part2.py`,  `part3.py`, and `part4.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`). Do not zip up each python file individually. You should create a single zipped file, inside of which the four unzipped python files reside.
 
 Upload the `.zip` file you created to Canvas. 
 
-Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+Note that if you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+
+Remember, too, that your code must run to completion without errors.
 
 Remember that your comments need to be helpful **and** well formatted.
 
