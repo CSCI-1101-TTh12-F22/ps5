@@ -4,13 +4,15 @@
 
 For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, **2 points will be deucted from your grade**. Following directions to the letter is a crucial skill for computer programming.
 
-**Note: Your programs should all have the following format:** 
+### Program contents
+Your programs should all have the following format:
+
 * First, `import` statements (if necessary).
 * Then, function definitions. I will tell you what functions to define for each program.
 * Then, a `main()` function that gets the ball rolling and calls the functions you defined. I will tell you what needs to be in `main()`.
 * Finally, outide all other functions, the call to `main()`.
 
-### Valid code
+### Valid code requirement
 I now expect you to submit code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should either post to Slack the exact error and a screenshot of the snippet of code causing the error, or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
 
 ### Comments
@@ -130,16 +132,15 @@ This program, `part4.py` will give you practice working with list comprehensions
 
 5. Write a `main()` method that:
 
-* Call `loopLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out the average of the two returned lists using `loopaverage()`.
-* Call `compLists(10000)`. ecall that this function returns a list of integers, and a list of even integers. Calculate and print out the average of the two returned lists using `fastaverage()`.
-* Using either of the two averaging functions, calculate and print out the average of each half of each of the four returned lists. Use [list slicing](https://stackabuse.com/python-slice-notation-on-list/) to access the first half and the second half of each list. 
+* Call `loopLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out, to three decimal places, the average of thse two returned lists using `loopaverage()`. (Number of averages calculated and printed out: 2.)
+* Call `compLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out, to three decimal places, the average of these two returned lists using `fastaverage()`. (Number of averages calculated and printed out: 2.)
 
-You will print out a total of 6 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
+You will print out a total of 4 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 
 ---
 
 ## What to turn in
-If you haven't already, create a `ps5` folder. In your `p5` folder you should have four python scripts: `part1.py`, `part2.py`,  `part3.py`, and `part4.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`). Do not zip up each python file individually. You should create a single zipped file, inside of which the four unzipped python files reside.
+If you haven't already, create a `ps5` folder. In your `p5` folder you should have four python scripts: `part1.py`, `part2.py`,  `part3.py`, and `part4.py`. You may also include a Madlib for us to try , as suggested above in Part 1. Zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`). Do not zip up each python file individually. You should create a single zipped file, inside of which the four unzipped python files reside.
 
 Upload the `.zip` file you created to Canvas. 
 
