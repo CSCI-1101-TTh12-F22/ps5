@@ -2,7 +2,7 @@
 
 ### Due Monday, October 17, 2022, at 11:59pm EDT
 
-For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, **2 points will be deucted from your grade**. Following directions to the letter is a crucial skill for computer programming.
 
 **Note: Your programs should all have the following format:** 
 * First, `import` statements (if necessary).
@@ -10,8 +10,11 @@ For this problem set, you will submit to Canvas **a single .zip file**. Detailed
 * Then, a `main()` function that gets the ball rolling and calls the functions you defined. I will tell you what needs to be in `main()`.
 * Finally, outide all other functions, the call to `main()`.
 
+### Valid code
+I now expect you to submit t only code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should post your problem on Slack (the exact error and a screenshot of snippet of code causing the error) or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
+
 ### Comments
-I now expect you to write *well-formatted and helpful* comments in your code! Two points will be deducted if you provide no or minimal comments, and 1 point will be deducted if you have sufficient comments but they do not conform to these requirements:
+I now expect you to write *well-formatted and helpful* comments in your code! **Two points will be deducted** if you provide no or minimal comments, and **1 point will be deducted** if you have sufficient comments but they do not conform to these requirements:
 
 * Before every function, describe what it does and what its arguments are (if any).
 * Before every variable, explain what value it is holding or what purpose it serves. (Exception: the variable that helps you go through a `for` loop does not need to be explained, of course!)
@@ -58,9 +61,7 @@ Here is a sample run of the program using `madlib2.txt` as the input file.
 
 And here is what the output file looks like:
 
-```
-When I was swimming to Trader Joe's , I found a lampshade on the sidewalk . I picked it up and gave it to my fireplace who said " Meh !"
-```
+```When I was swimming to Trader Joe's , I found a lampshade on the sidewalk . I picked it up and gave it to my fireplace who said " Meh !"```
 
 *Hint: Don't forget to consult the various functions on strings, which you can learn about [here](https://www.w3schools.com/python/python_ref_string.asp).*
 
