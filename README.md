@@ -137,7 +137,7 @@ This program, `part4.py` will give you practice working with list comprehensions
 * You will print out a total of 4 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 * Here is some expected output:
 
-<img src="part4.png" width=600>
+<img src="part4.png" width=400>
 
 ---
 
@@ -146,10 +146,10 @@ If you haven't already, create a `ps5` folder. In your `p5` folder you should ha
 
 Upload the `.zip` file you created to Canvas. 
 
-Reminder: if you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. 
+**Reminder:** If you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. 
 
-Reminder: that your code must run to completion without errors.
+**Reminder:** That your code must run to completion without errors. You will receive a 0 for any program that cannot run because it has an error.
 
-Reminder: that your comments need to be helpful **and** well formatted.
+**Reminder:** Your comments need to be helpful **and** well formatted. Poor comments will result in a 1- or 2-point deduction in your grade.
 
 ### This problem set is due Monday, October 17, 2022, at 11:59pm EDT.
