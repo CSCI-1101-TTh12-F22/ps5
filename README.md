@@ -148,7 +148,7 @@ Upload the `.zip` file you created to Canvas.
 
 **Reminder:** If you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. 
 
-**Reminder:** That your code must run to completion without errors. You will receive a 0 for any program that cannot run because it has an error.
+**Reminder:** Your code must run to completion without errors. You will receive a 0 for any program that cannot run because it has an error.
 
 **Reminder:** Your comments need to be helpful **and** well formatted. Poor comments will result in a 1- or 2-point deduction in your grade.
 
