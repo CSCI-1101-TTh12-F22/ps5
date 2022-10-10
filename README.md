@@ -12,7 +12,7 @@ Your programs should all have the following format:
 * Then, a `main()` function that gets the ball rolling and calls the functions you defined. I will tell you what needs to be in `main()`.
 * Finally, outide all other functions, the call to `main()`.
 
-### Valid code requirement
+### Valid code *(New!)*
 I now expect you to submit code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should either post to Slack the exact error and a screenshot of the snippet of code causing the error, or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
 
 ### Comments
