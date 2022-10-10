@@ -137,7 +137,7 @@ This program, `part4.py` will give you practice working with list comprehensions
 * You will print out a total of 4 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
 * Here is some expected output:
 
-<img src="part2-item4.png" width=600>
+<img src="part4.png" width=600>
 
 ---
 
