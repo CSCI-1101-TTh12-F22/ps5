@@ -144,10 +144,10 @@ If you haven't already, create a `ps5` folder. In your `p5` folder you should ha
 
 Upload the `.zip` file you created to Canvas. 
 
-Note that if you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+Reminder: if you do not submit the files as specified here, there will be a 2-point in your grade for this assignment. 
 
-Remember, too, that your code must run to completion without errors.
+Reminder: that your code must run to completion without errors.
 
-Remember that your comments need to be helpful **and** well formatted.
+Reminder: that your comments need to be helpful **and** well formatted.
 
 ### This problem set is due Monday, October 17, 2022, at 11:59pm EDT.
