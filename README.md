@@ -134,8 +134,10 @@ This program, `part4.py` will give you practice working with list comprehensions
 
 * Call `loopLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out, to three decimal places, the average of thse two returned lists using `loopaverage()`. (Number of averages calculated and printed out: 2.)
 * Call `compLists(10000)`. Recall that this function returns a list of integers, and a list of even integers. Calculate and print out, to three decimal places, the average of these two returned lists using `fastaverage()`. (Number of averages calculated and printed out: 2.)
+* You will print out a total of 4 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
+* Here is some expected output:
 
-You will print out a total of 4 averages in the `main()` method. If all your averages are not close to each other (and to 50.5), go back and review your code! With lists of length 10,000, you should be getting close to the expected mean.
+<img src="part2-item4.png" width=600>
 
 ---
 
