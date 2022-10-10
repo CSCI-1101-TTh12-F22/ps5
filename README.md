@@ -13,7 +13,7 @@ Your programs should all have the following format:
 * Finally, outide all other functions, the call to `main()`.
 
 ### Valid code *(New!)*
-I now expect you to submit code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should either post to Slack the exact error and a screenshot of the snippet of code causing the error, or come to office hours. If it's 11pm on the day it's due, comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
+I now expect you to submit code that runs to completion without errors. **Programs that produce errors when we run them will receive a grade of 0.** If you cannot get your code to run without errors, you should either post to Slack the exact error and a screenshot of the snippet of code causing the error, or come to office hours so that we can help you fix it. If it's too late to get help (e.g., 11pm on the day it's due), comment out code until your program runs without errors, and indicate in the comments where and why you commented out that code. Programs with partial code will receive partial credit.
 
 ### Comments
 I now expect you to write *well-formatted and helpful* comments in your code! **Two points will be deducted** if you provide no or minimal comments, and **1 point will be deducted** if you have sufficient comments but they do not conform to these requirements:
