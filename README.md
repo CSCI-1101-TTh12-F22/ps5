@@ -107,7 +107,7 @@ Other than how the computer guesses the number, the behavior should be the same 
 
 Here is an example successful run:
 
-<img src="part2-item1.png" width=600>
+<img src="part3.png" width=600>
 
 
 ## Part 4: List comprehensions, list slicing, and reading Python documentation
